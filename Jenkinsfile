@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        git 'Default'
-    }
-
-
     stages {
 
         stage ('GetProject') {
